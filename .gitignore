@@ -1,0 +1,37 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+将删除 .gitignore
+将删除 .idea/
+将删除 pom.xml
+将删除 springcloudlearn.iml
+将删除 src/
+.idea
+将删除 eureka-server/
+将删除 eurekadiscover/
+/eureka-server/.mvn
+/eurekadiscover/.mvn
+将删除 mvnw
+将删除 mvnw.cmd
