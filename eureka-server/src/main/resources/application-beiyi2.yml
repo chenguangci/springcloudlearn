@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 1113
+eureka:
+  instance:
+    hostname: beiyi2
+  client:
+    service-url:
+      defaultZone: http://beiyi1:1112/eureka
