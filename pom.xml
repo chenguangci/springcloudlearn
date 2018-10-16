@@ -23,6 +23,10 @@
     <modules>
         <module>eureka-server</module>
         <module>eurekadiscover</module>
+        <module>loadBalanceClient</module>
+        <module>feign</module>
+        <module>beiyiapi</module>
+        <module>ribbon-hystrix</module>
     </modules>
 
 

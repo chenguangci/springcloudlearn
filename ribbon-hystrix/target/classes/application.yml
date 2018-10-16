@@ -1,9 +1,10 @@
-server:
-  port: 2100
 spring:
   application:
-    name: beiyi-client
+    name: eureka-consumer-ribbon-hystrix
+server:
+  port: 2102
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:1111/eureka
+

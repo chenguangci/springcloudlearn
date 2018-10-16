@@ -14,7 +14,7 @@ public class ConsumerController {
 
     @RequestMapping(value = "/ribbon-consumer", method = RequestMethod.GET)
     public String helloConsumer(){
-        return restTemplate.getForEntity("http://BeiYi-Client/hello",String.class).getBody();
+        return restTemplate.getForEntity("http://beiyi-client/hello",String.class).getBody();
     }
 
 }

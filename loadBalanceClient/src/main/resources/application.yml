@@ -1,8 +1,8 @@
 server:
-  port: 2100
+  port: 2101
 spring:
   application:
-    name: beiyi-client
+    name: eureka-consumer
 eureka:
   client:
     service-url:
