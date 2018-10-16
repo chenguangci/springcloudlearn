@@ -27,6 +27,7 @@
         <module>feign</module>
         <module>beiyiapi</module>
         <module>ribbon-hystrix</module>
+        <module>gateway</module>
     </modules>
 
 
