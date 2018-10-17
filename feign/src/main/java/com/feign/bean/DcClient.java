@@ -3,9 +3,11 @@ package com.feign.bean;
 import net.beiyi.bean.User;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient("beiyi-client")
+@FeignClient("api-gateway")
+@RequestMapping("api-a")
 public interface DcClient {
 
     /**
@@ -13,8 +15,8 @@ public interface DcClient {
      * 相比于ribbon使用更加方便一些
      * @return
      */
-    @GetMapping("/hello")
-    String consumer();
+    @GetMapping("hello")
+    String consumer(@RequestParam(value = "token", required = false)String token);
 
     /**
      * 参数传递比较规范

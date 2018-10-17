@@ -9,3 +9,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
+
+zuul:
+  routes:
+    beiyi-client: /api-a/**

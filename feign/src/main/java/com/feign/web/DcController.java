@@ -16,7 +16,7 @@ public class DcController {
 
     @GetMapping("/consumer")
     public String dc() {
-        String str = dcClient.consumer();
+        String str = dcClient.consumer("ok");
         System.out.println(str);
         return str;
     }

@@ -29,4 +29,12 @@ public class DcController {
         System.out.println(url);
         return restTemplate.getForObject(url, User.class);
     }
+
+    @GetMapping("/hello")
+    public String hello(@RequestParam("token")String token) {
+        ServiceInstance serviceInstance = client.choose("api-gateway");
+        String url = "http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/api-a/hello?token=" + token;
+        System.out.println(url);
+        return restTemplate.getForObject(url, String.class);
+    }
 }
