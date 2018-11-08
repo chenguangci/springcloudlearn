@@ -29,6 +29,8 @@
         <module>ribbon-hystrix</module>
         <module>gateway</module>
         <module>config-server</module>
+        <module>beiyi-bus</module>
+        <module>beiyi-config</module>
     </modules>
 
 

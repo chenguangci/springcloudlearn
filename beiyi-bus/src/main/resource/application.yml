@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: beiyi-rabbitmq
+#  rabbitmq:
+#    host: 39.108.227.211
+#    port: 5672
+#    username: chen
+#    password: 123456
+#    connection-timeout: 5000
+  redis:
+    host: 39.108.227.211
+    port: 6379
+  kafka:
+    bootstrap-servers: 39.108.227.211
